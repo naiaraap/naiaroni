@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Passions+Conflict&display=swap');
+/* @import-normalize; */
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: #ffe6ee;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Italiana', serif;
+}
+
+#root > main.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
